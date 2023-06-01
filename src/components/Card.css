@@ -1,0 +1,46 @@
+.card {
+  color: aliceblue;
+  background-color: #EC1B4B;
+  border-radius: 25px;
+  border: 16px solid aliceblue;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  height: 50%;
+  width: 80%;
+}
+
+.card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.card-event-title {
+  font-size: 4.6vh;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  height: 15%;
+}
+
+.card-description {
+  font-size: 3.3vh;
+  height: 50%;
+  margin: 10px;
+}
+
+.card-buttons {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+  padding: 0 10px; /* Agrega un espaciado horizontal de 10px */
+}
+
+.card-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%; /* Aplica el border-radius al height */
+  background-color: #f2f2f2;
+  border: none;
+}

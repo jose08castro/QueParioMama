@@ -1,0 +1,44 @@
+.MainMenu {
+  color: aliceblue;
+  background-color: #2E9598;
+  border-radius: 25px;
+  border: 1px solid aliceblue;
+  font-size: calc(20px + 2vmin);
+}
+
+.menu-container {
+  background-color: #2E9598;
+  display: flex;
+  justify-content: center;
+  /* Alineación horizontal */
+  align-items: center;
+  /* Alineación vertical */
+  height: 100vh;
+  /* Ajusta la altura según tus necesidades */
+  width: 100%;
+  font-size: calc(20px + 2vmin);
+}
+
+.menu-items {
+  display: flex;
+  flex-direction: column;
+  /* Apila los elementos verticalmente */
+  align-items: center;
+  /* Alineación vertical de los elementos */
+  text-align: center;
+  /* Alineación horizontal del texto */
+}
+
+.menu-item {
+  margin: 10px;
+}
+
+.main-menu-link {
+  text-decoration: none;
+  color: #FFF;
+}
+
+.main-menu-link:hover {
+  cursor: pointer;
+  color: #333;
+}
