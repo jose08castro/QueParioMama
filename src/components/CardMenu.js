@@ -9,12 +9,12 @@ function CardMenu({ people }) {
 
   useEffect(() => {
     // Cargar los datos del archivo JSON local
-    console.log("Sí");
-    fetch('../src/json/Hola')
+    fetch('https://raw.githubusercontent.com/jose08castro/QueParioMama/master/src/json/cards.json')
       .then((response) => response.json())
       .then((data) => {
         setCards(data); // Asignar los datos a la variable cards
         setRandomNum(Math.floor(Math.random() * data.length)); // Generar un número aleatorio
+        console.log(cards);
       })
       .catch((error) => {
         console.error('Error al cargar los datos del archivo JSON:', error);

@@ -1,135 +1,137 @@
-﻿[
-    {
-        "ID": "1",
-        "Description": "tapase los ojos y deje que alguien le bese el cuello.",
-        "Category": "Desafío",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "2",
-        "Description": "quítese una prenda a elección del público.",
-        "Category": "Desafío",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "3",
-        "Description": "cuente un chiste que haga reír al menos a una persona.",
-        "Category": "Desafío",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "4",
-        "Description": "utilice una frase para ligar viendo a los ojos a otro jugador.",
-        "Category": "Desafío",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "5",
-        "Description": "diga con cuántas personas ha cogido.",
-        "Category": "Confesión",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "6",
-        "Description": "diga el nombre de la última persona con la que ha estado.",
-        "Category": "Confesión",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "7",
-        "Description": "diga su posición favorita.",
-        "Category": "Confesión",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "8",
-        "Description": "cuente su peor experiencia sexual.",
-        "Category": "Confesión",
-        "Group": "0",
-        "Level ": "0 "
-    },
-    {
-        "ID": "9",
-        "Description": "entregue los shots a la persona que cree que besa peor de los presentes.",
-        "Category": "Barismo",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "10",
-        "Description": "entregue los shots a la persona que le atrae más de los presentes.",
-        "Category": "Barismo",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "11",
-        "Description": "entregue los shots a la última persona que haya besado en el grupo.",
-        "Category": "Barismo",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "12",
-        "Description": "entregue los shots a quien crea que esté más sobrio.",
-        "Category": "Barismo",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "13",
-        "Description": "concurso de miradas contra. El perdedor toma:",
-        "Category": "Competencia",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "14",
-        "Description": "quién dibuje peor a un político nacional toma:",
-        "Category": "Competencia",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "15",
-        "Description": "el más \"asaltatumbas\" toma:",
-        "Category": "Competencia",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "16",
-        "Description": "el más \"asaltacunas\" toma:",
-        "Category": "Competencia",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "17",
-        "Description": "Todos toman",
-        "Category": "Evento",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "18",
-        "Description": "Todos las mujeres toman",
-        "Category": "Evento",
-        "Group": "1",
-        "Level ": "0 "
-    },
-    {
-        "ID": "19",
-        "Description": "Todos los solteros toman",
-        "Category": "Evento",
-        "Group": "1",
-        "Level ": "0"
-    }
-]
+﻿{
+    "data": [
+        {
+            "ID": "1",
+            "Description": "tapase los ojos y deje que alguien le bese el cuello.",
+            "Category": "Desafío",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "2",
+            "Description": "quítese una prenda a elección del público.",
+            "Category": "Desafío",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "3",
+            "Description": "cuente un chiste que haga reír al menos a una persona.",
+            "Category": "Desafío",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "4",
+            "Description": "utilice una frase para ligar viendo a los ojos a otro jugador.",
+            "Category": "Desafío",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "5",
+            "Description": "diga con cuántas personas ha cogido.",
+            "Category": "Confesión",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "6",
+            "Description": "diga el nombre de la última persona con la que ha estado.",
+            "Category": "Confesión",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "7",
+            "Description": "diga su posición favorita.",
+            "Category": "Confesión",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "8",
+            "Description": "cuente su peor experiencia sexual.",
+            "Category": "Confesión",
+            "Group": "0",
+            "Level ": "0 "
+        },
+        {
+            "ID": "9",
+            "Description": "entregue los shots a la persona que cree que besa peor de los presentes.",
+            "Category": "Barismo",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "10",
+            "Description": "entregue los shots a la persona que le atrae más de los presentes.",
+            "Category": "Barismo",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "11",
+            "Description": "entregue los shots a la última persona que haya besado en el grupo.",
+            "Category": "Barismo",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "12",
+            "Description": "entregue los shots a quien crea que esté más sobrio.",
+            "Category": "Barismo",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "13",
+            "Description": "concurso de miradas contra. El perdedor toma:",
+            "Category": "Competencia",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "14",
+            "Description": "quién dibuje peor a un político nacional toma:",
+            "Category": "Competencia",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "15",
+            "Description": "el más \"asaltatumbas\" toma:",
+            "Category": "Competencia",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "16",
+            "Description": "el más \"asaltacunas\" toma:",
+            "Category": "Competencia",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "17",
+            "Description": "Todos toman",
+            "Category": "Evento",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "18",
+            "Description": "Todos las mujeres toman",
+            "Category": "Evento",
+            "Group": "1",
+            "Level ": "0 "
+        },
+        {
+            "ID": "19",
+            "Description": "Todos los solteros toman",
+            "Category": "Evento",
+            "Group": "1",
+            "Level ": "0"
+        }
+    ]
+}
