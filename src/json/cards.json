@@ -3,135 +3,135 @@
         {
             "id": 1,
             "description": "tapase los ojos y deje que alguien le bese el cuello.",
-            "category": "Desafío",
+            "category": 1,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 2,
             "description": "quítese una prenda a elección del público.",
-            "category": "Desafío",
+            "category": 1,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 3,
             "description": "cuente un chiste que haga reír al menos a una persona.",
-            "category": "Desafío",
+            "category": 1,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 4,
             "description": "utilice una frase para ligar viendo a los ojos a otro jugador.",
-            "category": "Desafío",
+            "category": 1,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 5,
             "description": "diga con cuántas personas ha cogido.",
-            "category": "Confesión",
+            "category": 2,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 6,
             "description": "diga el nombre de la última persona con la que ha estado.",
-            "category": "Confesión",
+            "category": 2,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 7,
             "description": "diga su posición favorita.",
-            "category": "Confesión",
+            "category": 2,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 8,
             "description": "cuente su peor experiencia sexual.",
-            "category": "Confesión",
+            "category": 2,
             "group": 0,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 9,
             "description": "entregue los shots a la persona que cree que besa peor de los presentes.",
-            "category": "Barismo",
+            "category": 4,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 10,
             "description": "entregue los shots a la persona que le atrae más de los presentes.",
-            "category": "Barismo",
+            "category": 4,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 11,
             "description": "entregue los shots a la última persona que haya besado en el grupo.",
-            "category": "Barismo",
+            "category": 4,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 12,
             "description": "entregue los shots a quien crea que esté más sobrio.",
-            "category": "Barismo",
+            "category": 4,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 13,
             "description": "concurso de miradas contra. El perdedor toma:",
-            "category": "Competencia",
+            "category": 3,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 14,
             "description": "quién dibuje peor a un político nacional toma:",
-            "category": "Competencia",
+            "category": 3,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 15,
             "description": "el más \"asaltatumbas\" toma:",
-            "category": "Competencia",
+            "category": 3,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 16,
             "description": "el más \"asaltacunas\" toma:",
-            "category": "Competencia",
+            "category": 3,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 17,
             "description": "Todos toman",
-            "category": "Evento",
+            "category": 0,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 18,
             "description": "Todos las mujeres toman",
-            "category": "Evento",
+            "category": 0,
             "group": 1,
-            "level": 0
+            "level ": 0
         },
         {
             "id": 19,
             "description": "Todos los solteros toman",
-            "category": "Evento",
+            "category": 0,
             "group": 1,
-            "level": 0
+            "level ": 0
         }
     ]
 }
