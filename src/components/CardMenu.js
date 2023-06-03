@@ -22,9 +22,9 @@ function CardMenu({ people, updatePeopleList }) {
   }
 
   function getPlayers(currentPlayerIndex, secondRandomPlayerIndex, category) {
-    if (category === 'Barismo') {
+    if (category === 3) {
       return people.filter((person, index) => index !== currentPlayerIndex);
-    } else if (category === 'Competencia') {
+    } else if (category === 4) {
       return people.filter((person, index) => index === secondRandomPlayerIndex);
     } else {
       return [];
@@ -61,7 +61,7 @@ function CardMenu({ people, updatePeopleList }) {
         zarpeLinkRef.current.click();
       }
     }
-    if (cards[randomNum]?.category !== 'Evento') {
+    if (cards[randomNum]?.category !== 5) {
       setCurrentPlayerIndex((prevIndex) => {
         const newIndex = (prevIndex + 1) % people.length;
         setSecondRandomPlayerIndex(getRandomNum(people, newIndex));
@@ -92,9 +92,9 @@ function CardMenu({ people, updatePeopleList }) {
       <div className="card-menu-container">
         <Card
           description={
-            cards[randomNum]?.category === 'Evento'
+            cards[randomNum]?.category === 5
               ? cards[randomNum]?.description
-              : cards[randomNum]?.category === 'Competencia'
+              : cards[randomNum]?.category === 4
               ? `${people[currentPlayerIndex].name} y ${people[secondRandomPlayerIndex].name} ${cards[randomNum]?.description}`
               : `${people[currentPlayerIndex].name} ${cards[randomNum]?.description}`
           }

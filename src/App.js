@@ -22,7 +22,6 @@ function App() {
   return (
     // Deployment
     // <Router basename="/QueParioMama">
-    //Local
     <Router>
       <div className="App">
         <div className='App-header'>
