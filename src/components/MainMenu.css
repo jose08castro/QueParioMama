@@ -42,3 +42,8 @@
   cursor: pointer;
   color: #333;
 }
+
+.logo-image {
+  max-width: 90%;
+  height: auto;
+}

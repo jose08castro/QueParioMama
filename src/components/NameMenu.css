@@ -23,7 +23,7 @@
     font-size: 48px;
     font-weight: bold;
     margin-bottom: 10px;
-    color: #F7DB69;
+    color: #fff;
 }
 
 .name-menu-card {
@@ -40,6 +40,7 @@
 .circle {
     width: 40px;
     height: 40px;
+    max-height: 40px;
     background-color: #fff;
     border-radius: 50%;
     margin-right: 10px;
@@ -62,6 +63,35 @@
     border: 2px solid white;
     width: 40px;
     height: 40px;
+    max-height: 40px;
+    border-radius: 50%;
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    cursor: pointer;
+}
+
+.add-button:before{
+    content: '\271A';
+    position: absolute;
+    font-size: 30px;
+    height: 40px;
+    left: 0;
+    right: 0;
+    bottom: 2px;
+}
+
+.add-button:hover {
+    font-weight: bold;
+    color: rgba(168, 33, 107, 1);;
+    background-color: #fff;
+}
+
+/* .name-menu-card .add-button {
+    border: 2px solid white;
+    width: 40px;
+    height: 40px;
+    max-height: 40px;
     border-radius: 50%;
     position: relative;
     margin: 4px;
@@ -75,27 +105,30 @@
 .name-menu-card .add-button:after {
     content: '';
     position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     background: white;
 }
 
 .name-menu-card .add-button:before {
-    width: 6px;
-    margin: 6px auto;
+    width: 50%;
+    height: 5px;
+    max-width: 20px;
+    background-size: contain;
 }
 
 .name-menu-card .add-button:after {
-    height: 6px;
-    margin: auto 6px;
+    width: 5px;
+    height: 50%;
+    max-height: 20px;
+    background-size: contain;
 }
 
 .name-menu-card .add-button:hover {
     font-weight: bold;
     background-color: rgba(168, 33, 107, 0.5);
-}
+} */
 
 .buttons-container {
     display: flex;
