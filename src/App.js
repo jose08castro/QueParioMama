@@ -20,7 +20,8 @@ function App() {
   };
 
   return (
-    <Router basename="/QueParioMama">
+    // <Router basename="/QueParioMama">
+    <Router>
       <div className="App">
         <div className='App-header'>
           <Routes>

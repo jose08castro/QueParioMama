@@ -133,166 +133,166 @@
             "group": 1,
             "level ": 0
         },
-{
-        "id": 20,
-        "description": "entregue el shot a quien cree que desperdicia más dinero. O tome:",
-        "category": "Barismo",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 21,
-        "description": "entregue un shot a todo el que sea más bajo que usted. O tome:",
-        "category": "Barismo",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 22,
-        "description": "entregue un shot a todo el que sea más alto que usted. O tome:",
-        "category": "Barismo",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 23,
-        "description": "sientese en el regazo de alguien y abracelo. O tome:",
-        "category": "Desafio",
-        "group": 0,
-        "level ": 0
-    },
-    {
-        "id": 24,
-        "description": "todos cuya edad sean un número par toman:",
-        "category": "Evento",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 25,
-        "description": "todos cuya edad sean un número impar toman:",
-        "category": "Evento",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 26,
-        "description": "todos cuya edad sean un número primo toman:",
-        "category": "Evento",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 27,
-        "description": "todos los asalariados toman:",
-        "category": "Evento",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 28,
-        "description": "todos los desempleados toman:",
-        "category": "Evento",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 29,
-        "description": "todos los hombres toman:",
-        "category": "Evento",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 30,
-        "description": "adivine la hora sin ver el reloj. Si no está en un rango de 4 minutos toma:",
-        "category": "Desafio",
-        "group": 0,
-        "level ": 0
-    },
-    {
-        "id": 31,
-        "description": "pierda, papel y tijeras. El perdedor toma:",
-        "category": "Competencia",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 32,
-        "description": "adivine el color de la ropa interior de la persona a su derecha. O tome:",
-        "category": "Desafio",
-        "group": 0,
-        "level ": 0
-    },
-    {
-        "id": 33,
-        "description": "deje que los otros jugadores vean su galería de fotos por un minuto. O tome:",
-        "category": "Desafio",
-        "group": 0,
-        "level ": 0
-    },
-    {
-        "id": 34,
-        "description": "haga un gemido. O tome:",
-        "category": "Desafío",
-        "group": 0,
-        "level ": 0
-    },
-    {
-        "id": 35,
-        "description": "déjese pegar una cacheta. O tome:",
-        "category": "Desafío",
-        "group": 0,
-        "level ": 0
-    },
-    {
-        "id": 36,
-        "description": "entregue los shots a quien crea que lleva más sin coger. O tome:",
-        "category": "Barismo",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 37,
-        "description": "entregue los shots a quien crea sea el más ninfómano(a). O tome:",
-        "category": "Barismo",
-        "group": 1,
-        "level ": 0
-    },
-    {
-        "id": 38,
-        "description": "entregue los shots a quien considere más apuntado. O tome:",
-        "category": "Barismo",
-        "group": 1,
-        "level ": 0
-    },
-{
-        "id": 39,
-        "description": "cuente a qué edad fue su primera vez. O tome:",
-        "category": "Confesión",
-        "group": 0,
-        "level": 0
-    },
-    {
-        "id": 40,
-        "description": "admita si ha cogido en público. O tome:",
-        "category": "Confesión",
-        "group": 0,
-        "level": 0
-    },
-    {
-        "id": 41,
-        "description": "rodee el cuello de la persona de la izquierda frente a frente. O tome:",
-        "category": "Desafío",
-        "group": 0,
-        "level": 0
-    },
-    {
-        "id": 42,
-        "description": "el que enseñe la cédula a último toma:",
-        "category": "Competencia",
-        "group": 1,
-        "level": 0
-    }
+        {
+            "id": 20,
+            "description": "entregue el shot a quien cree que desperdicia más dinero. O tome:",
+            "category": "Barismo",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 21,
+            "description": "entregue un shot a todo el que sea más bajo que usted. O tome:",
+            "category": "Barismo",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 22,
+            "description": "entregue un shot a todo el que sea más alto que usted. O tome:",
+            "category": "Barismo",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 23,
+            "description": "sientese en el regazo de alguien y abracelo. O tome:",
+            "category": "Desafio",
+            "group": 0,
+            "level ": 0
+        },
+        {
+            "id": 24,
+            "description": "todos cuya edad sean un número par toman:",
+            "category": "Evento",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 25,
+            "description": "todos cuya edad sean un número impar toman:",
+            "category": "Evento",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 26,
+            "description": "todos cuya edad sean un número primo toman:",
+            "category": "Evento",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 27,
+            "description": "todos los asalariados toman:",
+            "category": "Evento",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 28,
+            "description": "todos los desempleados toman:",
+            "category": "Evento",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 29,
+            "description": "todos los hombres toman:",
+            "category": "Evento",
+            "group": 1,
+            "level ": 0
+        },
+        {
+            "id": 30,
+            "description": "adivine la hora sin ver el reloj. Si no está en un rango de 4 minutos toma:",
+            "category": "Desafío",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 31,
+            "description": "pierda, papel y tijeras. El perdedor toma:",
+            "category": "Competencia",
+            "group": 1,
+            "level": 0
+        },
+        {
+            "id": 32,
+            "description": "adivine el color de la ropa interior de la persona a su derecha. O tome:",
+            "category": "Desafío",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 33,
+            "description": "deje que los otros jugadores vean su galería de fotos por un minuto. O tome:",
+            "category": "Desafío",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 34,
+            "description": "haga un gemido. O tome:",
+            "category": "Desafío",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 35,
+            "description": "déjese pegar una cacheta. O tome:",
+            "category": "Desafío",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 36,
+            "description": "entregue los shots a quien crea que lleva más sin coger. O tome:",
+            "category": "Barismo",
+            "group": 1,
+            "level": 0
+        },
+        {
+            "id": 37,
+            "description": "entregue los shots a quien crea sea el más ninfómano(a). O tome:",
+            "category": "Barismo",
+            "group": 1,
+            "level": 0
+        },
+        {
+            "id": 38,
+            "description": "entregue los shots a quien considere más apuntado. O tome:",
+            "category": "Barismo",
+            "group": 1,
+            "level": 0
+        },
+        {
+            "id": 39,
+            "description": "cuente a qué edad fue su primera vez. O tome:",
+            "category": "Confesión",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 40,
+            "description": "admita si ha cogido en público. O tome:",
+            "category": "Confesión",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 41,
+            "description": "rodee el cuello de la persona de la izquierda frente a frente. O tome:",
+            "category": "Desafío",
+            "group": 0,
+            "level": 0
+        },
+        {
+            "id": 42,
+            "description": "el que enseñe la cédula a último toma:",
+            "category": "Competencia",
+            "group": 1,
+            "level": 0
+        }
     ]
 }
