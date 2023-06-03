@@ -16,7 +16,7 @@
     border-radius: 25px;
     width: 96%;
     max-width: 412px;
-    height: 90vh;
+    /* height: 90vh; */
     max-height: 90vh;
 }
 
@@ -26,14 +26,14 @@
     padding-top: 15px;
 }
 
-.button {
-    padding: 5px 10px;
-    border-radius: 20px;
+.zarpe-button {
+    padding: 8px 30px;
+    border-radius: 25px;
     background-color: black;
     color: white;
     text-decoration: none;
     margin: 0 10px;
-    font-size: 20px;
+    font-size: 30px;
 }
 
 .button:hover {

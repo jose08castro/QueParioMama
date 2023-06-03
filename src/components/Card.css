@@ -1,12 +1,12 @@
 .card {
   color: aliceblue;
-  background-color: #EC1B4B;
+  /* background-color: #EC1B4B; */
   border-radius: 25px;
   border: 16px solid aliceblue;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   transition: 0.3s;
-  height: 50%;
   width: 80%;
+  min-width: 304px;
 }
 
 .card:hover {
@@ -16,31 +16,69 @@
 
 .card-event-title {
   font-size: 4.6vh;
-  margin-top: 10px;
-  margin-bottom: 5px;
-  height: 15%;
+  margin-top: 15px;
+  margin-bottom: 0px;
+  height: 10%;
 }
 
 .card-description {
   font-size: 3.3vh;
-  height: 50%;
+  height: 22vh;
   margin: 10px;
 }
 
 .card-buttons {
   display: flex;
-  justify-content: space-between;
-  margin-top: 10px;
-  padding: 0 10px; /* Agrega un espaciado horizontal de 10px */
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3vh;
+  margin-bottom: 5vh;
 }
 
 .card-button {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 50px;
-  height: 50px;
+  margin: 0.8vh;
+  width: 60px;
+  height: 60px;
   border-radius: 50%; /* Aplica el border-radius al height */
   background-color: #f2f2f2;
   border: none;
+  font-size: 3vh;
+  font-weight: bold;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
+
+.card-button:hover {
+  color: #f2f2f2;
+  background-color: #000;
+}
+
+.barista-text {
+  font-size: 14px;
+  text-align: center;
+  color: #ffffff;
+  margin-top: 10px;
+}
+
+/* .barista-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 15px;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 3vh;
+  font-weight: bold;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+.barista-button:hover {
+  color: #f2f2f2;
+  background-color: #000;
+} */

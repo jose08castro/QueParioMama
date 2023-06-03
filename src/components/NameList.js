@@ -7,7 +7,7 @@ const NameList = ({ people, deletePerson, editPerson }) => {
       {people.map((person) => (
         <div className="name-card" key={person.id} style={{ backgroundColor: person.color}}>
           <div className="name-circle">
-            <span className="circle-text">{person.id}-{person.name.charAt(0)}</span>
+            <span className="circle-text">{person.name.split(' ').map((namePart) => namePart.charAt(0)).join('.')}</span>
           </div>
           <input
             className="name-input"
