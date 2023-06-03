@@ -1,24 +1,24 @@
 {
   "files": {
-    "main.css": "/QueParioMama/build/static/css/main.7625d97f.css",
-    "main.js": "/QueParioMama/build/static/js/main.0dfc09a6.js",
-    "static/js/787.413fe05a.chunk.js": "/QueParioMama/build/static/js/787.413fe05a.chunk.js",
-    "static/media/fa-solid-900.ttf": "/QueParioMama/build/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
-    "static/media/fa-brands-400.ttf": "/QueParioMama/build/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
-    "static/media/fa-solid-900.woff2": "/QueParioMama/build/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
-    "static/media/fa-brands-400.woff2": "/QueParioMama/build/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
-    "static/media/fa-regular-400.ttf": "/QueParioMama/build/static/media/fa-regular-400.d87474231f4192884802.ttf",
-    "static/media/Puffy.ttf": "/QueParioMama/build/static/media/Puffy.b7b38397d23035e0266a.ttf",
-    "static/media/fa-regular-400.woff2": "/QueParioMama/build/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
-    "static/media/fa-v4compatibility.ttf": "/QueParioMama/build/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
-    "static/media/fa-v4compatibility.woff2": "/QueParioMama/build/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
-    "index.html": "/QueParioMama/build/index.html",
-    "main.7625d97f.css.map": "/QueParioMama/build/static/css/main.7625d97f.css.map",
-    "main.0dfc09a6.js.map": "/QueParioMama/build/static/js/main.0dfc09a6.js.map",
-    "787.413fe05a.chunk.js.map": "/QueParioMama/build/static/js/787.413fe05a.chunk.js.map"
+    "main.css": "/QueParioMama/static/css/main.be330143.css",
+    "main.js": "/QueParioMama/static/js/main.583f325c.js",
+    "static/js/787.413fe05a.chunk.js": "/QueParioMama/static/js/787.413fe05a.chunk.js",
+    "static/media/fa-solid-900.ttf": "/QueParioMama/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
+    "static/media/fa-brands-400.ttf": "/QueParioMama/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
+    "static/media/fa-solid-900.woff2": "/QueParioMama/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/fa-brands-400.woff2": "/QueParioMama/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/fa-regular-400.ttf": "/QueParioMama/static/media/fa-regular-400.d87474231f4192884802.ttf",
+    "static/media/Puffy.ttf": "/QueParioMama/static/media/Puffy.b7b38397d23035e0266a.ttf",
+    "static/media/fa-regular-400.woff2": "/QueParioMama/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
+    "static/media/fa-v4compatibility.ttf": "/QueParioMama/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
+    "static/media/fa-v4compatibility.woff2": "/QueParioMama/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "index.html": "/QueParioMama/index.html",
+    "main.be330143.css.map": "/QueParioMama/static/css/main.be330143.css.map",
+    "main.583f325c.js.map": "/QueParioMama/static/js/main.583f325c.js.map",
+    "787.413fe05a.chunk.js.map": "/QueParioMama/static/js/787.413fe05a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7625d97f.css",
-    "static/js/main.0dfc09a6.js"
+    "static/css/main.be330143.css",
+    "static/js/main.583f325c.js"
   ]
 }
