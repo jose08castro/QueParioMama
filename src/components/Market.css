@@ -1,31 +1,77 @@
 .market-container {
-    position: fixed;
-  top: 0;
-  right: 0;
-  height: 100vh;
-  width: 300px;
-  background-color: #f9f9f9;
-  /* Agrega más estilos según tus preferencias */
-  }
-  
-  /* .market-item {
+    position: absolute;
+    top: 0;
+    right: -100%; /* Empieza fuera de la pantalla */
+    height: 100vh;
+    /* width: 40px; */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con transparencia */
+    transition: right 0.3s ease; /* Agrega una transición suave */
     display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra los elementos verticalmente */
     align-items: center;
-    margin-bottom: 10px;
+    padding: 0px 10px;
   }
   
-  .market-item-icon {
-    width: 30px;
-    height: 30px;
-    background-color: #683697;
-    border-radius: 50%;
+  .market-container.open {
+    right: 0; /* Muestra el Market al estar abierto */
+  }
+
+  .market-item-container{
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .market-button {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-right: 10px;
-    color: white;
+    margin: 0.8vh;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Aplica el border-radius al height */
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .market-button:hover {
+    color: #f2f2f2;
+    background-color: #000;
   }
   
-  .market-item-title {
-    font-weight: bold; 
-  }*/
+  .market-title {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .puffy{
+    font-family: 'Puffy';
+    font-size: 32px;
+  }
+
+  .disabled-market-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8vh;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%; /* Aplica el border-radius al height */
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    cursor: not-allowed;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
+  
+  

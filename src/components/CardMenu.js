@@ -2,19 +2,40 @@ import React, { useState, useEffect, useRef } from 'react';
 import './CardMenu.css';
 import { Link } from 'react-router-dom';
 import Card from './Card';
+import Market from './Market';
 
 function CardMenu({ people, updatePeopleList }) {
   const [cards, setCards] = useState([]);
+  const [specialCards] = useState([{
+    id: 999,
+    subtitle: "Botellita",
+    description: "",
+    category: 6,
+    group: 0,
+    level: 0,
+    special: 1
+  }]);
   const [currentPlayerIndex, setCurrentPlayerIndex] = useState(0);
   const [secondRandomPlayerIndex, setSecondRandomPlayerIndex] = useState(1);
+  const [isMarketOpen, setMarketOpen] = useState(false);
+  const [randomNum, setRandomNum] = useState(null);
+  const [shotNum, setShotNum] = useState(1);
+
   const zarpeLinkRef = useRef(null);
 
-  const randomNum = getRandomNum(cards);
   const roundPlayers = getPlayers(currentPlayerIndex, secondRandomPlayerIndex, cards[randomNum]?.category);
+
+  const handleToggleMarket = (event) => {
+    setMarketOpen(!isMarketOpen);
+    event.stopPropagation();
+  };
 
   function getRandomNum(list, excludeIndex) {
     const maxLength = list.length;
     let randomNumber = Math.floor(Math.random() * maxLength);
+    if (randomNumber + 1 === maxLength) {
+      randomNumber = randomNumber - 1;
+    }
     while (randomNumber === excludeIndex) {
       randomNumber = Math.floor(Math.random() * maxLength);
     }
@@ -31,7 +52,48 @@ function CardMenu({ people, updatePeopleList }) {
     }
   }
 
+  const handleMarketPurchase = (price, item) => {
+    const updatedPeople = [...people];
+    updatedPeople[currentPlayerIndex].score -= price;
+    updatePeopleList(updatedPeople);
+    switch (item) {
+      case 0:
+        setCards(prevCards => [...prevCards, specialCards[0]]);
+        break;
+      case 1:
+        setMarketOpen(!isMarketOpen);
+        setRandomNum((actualRandom) => {
+          let newRandom = getRandomNum(cards, actualRandom);
+          while (cards[newRandom]?.category === 5) {
+            newRandom = getRandomNum(cards, actualRandom);
+          }
+          return newRandom;
+        });
+        break;
+      case 2:
+        const punished = getRandomNum(people, currentPlayerIndex);
+        people[punished].plusShots += 2;
+        people[punished].plusShotsRounds += 2;
+        break;
+      case 3:
+        setCurrentPlayerIndex((prevIndex) => {
+          const newIndex = (prevIndex + 1) % people.length;
+          setMarketOpen(!isMarketOpen);
+          // setSecondRandomPlayerIndex(getRandomNum(people, newIndex));
+          return newIndex;
+        });
+        break;
+      case 4:
+        people[currentPlayerIndex].plusShots = 0;
+        people[currentPlayerIndex].plusShotsRounds = 0;
+        break;
+      default:
+        break;
+    }
+  }
+
   const handleNextPlayer = (index, num, idPlayer) => {
+    setMarketOpen(false);
     const updatedPeople = [...people];
     switch (index) {
       case 1:
@@ -55,12 +117,16 @@ function CardMenu({ people, updatePeopleList }) {
       updatedCards.splice(randomNum, 1);
       return updatedCards;
     });
+
+    setRandomNum(getRandomNum(cards));
+    setShotNum(Math.floor(Math.random() * 3) + 1);
+
     if (cards.length === 1) {
-      console.log('Finalizado');
       if (zarpeLinkRef.current) {
         zarpeLinkRef.current.click();
       }
     }
+
     if (cards[randomNum]?.category !== 5) {
       setCurrentPlayerIndex((prevIndex) => {
         const newIndex = (prevIndex + 1) % people.length;
@@ -79,6 +145,7 @@ function CardMenu({ people, updatePeopleList }) {
         );
         const data = await response.json();
         setCards(data.data);
+        setRandomNum(getRandomNum(data.data));
       } catch (error) {
         console.error('Error fetching cards:', error);
       }
@@ -90,18 +157,34 @@ function CardMenu({ people, updatePeopleList }) {
   return (
     <div className="over-card-menu-container">
       <div className="card-menu-container">
-        <Card
+        {isMarketOpen &&
+          <Market
+            isOpen={isMarketOpen}
+            playerScore={people[currentPlayerIndex].score}
+            handleMarketPurchase={handleMarketPurchase}
+          />}
+        <Card disabled={!isMarketOpen}
           description={
             cards[randomNum]?.category === 5
               ? cards[randomNum]?.description
               : cards[randomNum]?.category === 4
-              ? `${people[currentPlayerIndex].name} y ${people[secondRandomPlayerIndex].name} ${cards[randomNum]?.description}`
-              : `${people[currentPlayerIndex].name} ${cards[randomNum]?.description}`
+                ? `${people[currentPlayerIndex].name} y ${people[secondRandomPlayerIndex].name} ${cards[randomNum]?.description}`
+                : `${people[currentPlayerIndex].name} ${cards[randomNum]?.description}`
           }
+          subtitle={cards[randomNum]?.subtitle}
           category={cards[randomNum]?.category}
           difficulty={cards[randomNum]?.difficulty}
+          shotNum={shotNum}
+          plusShots={
+            cards[randomNum]?.category === 1 || cards[randomNum]?.category === 2 
+              ? people[currentPlayerIndex].plusShots
+              : 0
+          }
           roundPlayers={roundPlayers}
           handleNextPlayer={handleNextPlayer}
+          handleToggleMarket={handleToggleMarket}
+          people={people.filter((person, index) => index !== currentPlayerIndex)}
+          pDescriptionCounter={0}
         />
         <div>
           <div className="buttons-container">

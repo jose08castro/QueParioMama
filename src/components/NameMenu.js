@@ -30,9 +30,12 @@ const NameMenu = ({ people, updatePeopleList }) => {
       shots: 0,
       score: 0,
       color: generateRandomColor(),
+      plusShots: 0,
+      plusShotsRounds: 0,
     };
 
     updatePeopleList([...people, newPerson]);
+    console.log(people);
   };
 
   const deletePerson = (id) => {
