@@ -15,16 +15,36 @@
 }
 
 .card-event-title {
-  font-size: 4.6vh;
+  font-size: 4.3vh;
   margin-top: 15px;
   margin-bottom: 0px;
   height: 10%;
 }
 
-.card-description {
+.card-event-subtitle{
+  display: block;
   font-size: 3.3vh;
-  height: 22vh;
+  margin-top: 5px;
+  margin-bottom: 0px;
+}
+
+.card-description {
+  padding-top: 15px;
+  font-size: 3.3vh;
+  min-height: 22vh;
   margin: 10px;
+}
+
+.card-description .shotNumber{
+  display: flex;
+  justify-content: center;
+  /* align-items: center; */
+  padding-top: 15px;
+}
+
+.card-description .shotNumber .punishment-icon {
+  position: relative;
+  top: -10px;
 }
 
 .card-buttons {
@@ -34,6 +54,15 @@
   align-items: center;
   margin-top: 3vh;
   margin-bottom: 5vh;
+  font-size: 0; /* Agrega esta línea para solucionar el problema del tamaño de los íconos en iPhone */
+}
+
+.card-special-buttons{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1vh;
   font-size: 0; /* Agrega esta línea para solucionar el problema del tamaño de los íconos en iPhone */
 }
 
@@ -95,3 +124,31 @@
   color: #f2f2f2;
   background-color: #000;
 } */
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* Centra horizontalmente */
+}
+
+.card-menu-button {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: #f2f2f2;
+  border: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+  font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.card-menu-button svg {
+  width: 1.6rem;
+  height: 1.6rem;
+}

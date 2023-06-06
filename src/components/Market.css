@@ -1,0 +1,98 @@
+.market-container {
+    position: absolute;
+    top: 0;
+    right: -100%; /* Empieza fuera de la pantalla */
+    height: 100vh;
+    /* width: 40px; */
+    background-color: rgba(0, 0, 0, 0.8); /* Fondo negro con transparencia */
+    transition: right 0.3s ease; /* Agrega una transición suave */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centra los elementos verticalmente */
+    align-items: center;
+    padding: 0px 10px;
+  }
+  
+  .market-container.open {
+    right: 0; /* Muestra el Market al estar abierto */
+  }
+
+  .currency{
+    font-size: 40px;
+  }
+
+  .market-item-container{
+    margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #2E9598;
+    border-radius: 10px; /* Agregar esta línea */
+  }
+
+  .market-item-container .price{
+    background-color: #257477;
+    width: 100%;
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding-top: 4px;
+    font-size: 24px;
+  }
+  
+  .market-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Aplica el border-radius al height */
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  }
+
+  .market-button:hover {
+    color: #f2f2f2;
+    background-color: #000;
+  }
+  
+  .market-title {
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
+  }
+
+  .puffy{
+    font-family: 'Puffy';
+    font-size: 32px;
+  }
+
+  .disabled-market-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0.8vh;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; /* Aplica el border-radius al height */
+    background-color: #f2f2f2;
+    border: none;
+    font-size: 5vh;
+    font-weight: bold;
+    font-family: 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+    cursor: not-allowed;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+  
+  
+  

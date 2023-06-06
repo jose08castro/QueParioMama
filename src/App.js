@@ -21,8 +21,8 @@ function App() {
 
   return (
     // Deployment
-    // <Router basename="/QueParioMama">
-    <Router>
+    <Router basename="/QueParioMama">
+    {/* <Router> */}
       <div className="App">
         <div className='App-header'>
           <Routes>
