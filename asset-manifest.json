@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/QueParioMama/static/css/main.6254e00c.css",
-    "main.js": "/QueParioMama/static/js/main.3b38b186.js",
+    "main.css": "/QueParioMama/static/css/main.0c61256f.css",
+    "main.js": "/QueParioMama/static/js/main.7b8a6e6a.js",
     "static/js/787.413fe05a.chunk.js": "/QueParioMama/static/js/787.413fe05a.chunk.js",
     "static/media/fa-solid-900.ttf": "/QueParioMama/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/QueParioMama/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
@@ -14,12 +14,12 @@
     "static/media/fa-v4compatibility.ttf": "/QueParioMama/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/QueParioMama/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
     "index.html": "/QueParioMama/index.html",
-    "main.6254e00c.css.map": "/QueParioMama/static/css/main.6254e00c.css.map",
-    "main.3b38b186.js.map": "/QueParioMama/static/js/main.3b38b186.js.map",
+    "main.0c61256f.css.map": "/QueParioMama/static/css/main.0c61256f.css.map",
+    "main.7b8a6e6a.js.map": "/QueParioMama/static/js/main.7b8a6e6a.js.map",
     "787.413fe05a.chunk.js.map": "/QueParioMama/static/js/787.413fe05a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6254e00c.css",
-    "static/js/main.3b38b186.js"
+    "static/css/main.0c61256f.css",
+    "static/js/main.7b8a6e6a.js"
   ]
 }
