@@ -17,11 +17,32 @@
     right: 0; /* Muestra el Market al estar abierto */
   }
 
+  .currency{
+    font-size: 40px;
+  }
+
   .market-item-container{
     margin-bottom: 20px;
+    padding-left: 10px;
+    padding-right: 10px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    background-color: #2E9598;
+    border-radius: 10px; /* Agregar esta línea */
+  }
+
+  .market-item-container .price{
+    background-color: #257477;
+    width: 100%;
+    flex: 1;
+    padding-left: 10px;
+    padding-right: 10px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center; */
+    padding-top: 4px;
+    font-size: 24px;
   }
   
   .market-button {
@@ -29,8 +50,8 @@
     justify-content: center;
     align-items: center;
     margin: 0.8vh;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%; /* Aplica el border-radius al height */
     background-color: #f2f2f2;
     border: none;
@@ -60,8 +81,8 @@
     justify-content: center;
     align-items: center;
     margin: 0.8vh;
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%; /* Aplica el border-radius al height */
     background-color: #f2f2f2;
     border: none;
