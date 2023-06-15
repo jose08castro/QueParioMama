@@ -6,7 +6,9 @@
             "category": 1,
             "group": 0,
             "level": 2,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 2,
@@ -14,7 +16,9 @@
             "category": 1,
             "group": 0,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 3,
@@ -22,7 +26,9 @@
             "category": 1,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 4,
@@ -30,23 +36,29 @@
             "category": 1,
             "group": 0,
             "level": 4,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 5,
-            "description": "compre al menos dos \"Botellita\". Si no puede o no quiere tome:",
+            "description": "\"compre al menos dos \"\"Botellita\"\". Si no puede o no quiere tome:\"",
             "category": 1,
             "group": 0,
             "level": 5,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 6,
             "description": "convenza a dos personas de hacer un beso de tres. O tome:",
             "category": 1,
             "group": 0,
-            "level": 5,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 7,
@@ -54,7 +66,9 @@
             "category": 1,
             "group": 0,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 8,
@@ -62,7 +76,9 @@
             "category": 1,
             "group": 0,
             "level": 1,
-            "time": 60
+            "time": 60,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 9,
@@ -70,7 +86,9 @@
             "category": 1,
             "group": 0,
             "level": 5,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 10,
@@ -78,7 +96,9 @@
             "category": 1,
             "group": 0,
             "level": 2,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 11,
@@ -86,7 +106,9 @@
             "category": 1,
             "group": 0,
             "level": 5,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 12,
@@ -94,7 +116,9 @@
             "category": 1,
             "group": 0,
             "level": 4,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 13,
@@ -102,7 +126,9 @@
             "category": 1,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 14,
@@ -110,23 +136,29 @@
             "category": 1,
             "group": 0,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 15,
             "description": "intercambie una prenda con alguien por todo el juego. O tome:",
             "category": 1,
             "group": 0,
-            "level": 1,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 16,
             "description": "muerda la oreja de la persona a la izquierda o derecha suavemente. O tome:",
             "category": 1,
             "group": 0,
-            "level": 4,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 17,
@@ -134,71 +166,89 @@
             "category": 1,
             "group": 0,
             "level": 4,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 18,
             "description": "muestre al grupo la lista de bloqueados en su insta. O tome:",
             "category": 1,
             "group": 0,
-            "level": 1,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 19,
             "description": "muestre al grupo las publicaciones guardadas en insta. O tome:",
             "category": 1,
             "group": 0,
-            "level": 1,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 20,
-            "description": "póngase de 4 y pida \"una nalgada fuerte\" a quien usted quiera y agradezca después. O tome:",
+            "description": "\"póngase de 4 y pida \"\"una nalgada fuerte\"\" a quien usted quiera y agradezca después. O tome:\"",
             "category": 1,
             "group": 0,
             "level": 5,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 21,
             "description": "quite el brasier de alguien con la mano NO dominante. O tome:",
             "category": 1,
             "group": 0,
-            "level": 5,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 22,
             "description": "quite la faja de alguien con la mano NO dominante. O tome:",
             "category": 1,
             "group": 0,
-            "level": 5,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 23,
             "description": "quítese una prenda a elección del público. O tome:",
             "category": 1,
             "group": 0,
-            "level": 5,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 24,
             "description": "responda a la pregunta que invente la persona que más lo conoce. O tome:",
             "category": 1,
             "group": 0,
-            "level": 1,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 25,
-            "description": "rodee el cuello de la persona de la izquierda frente a frente. O tome:",
+            "description": "abrace el cuello de la persona de la izquierda frente a frente. O tome:",
             "category": 1,
             "group": 0,
-            "level": 4,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 26,
@@ -206,7 +256,9 @@
             "category": 1,
             "group": 0,
             "level": 4,
-            "time": 60
+            "time": 60,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 27,
@@ -214,7 +266,9 @@
             "category": 1,
             "group": 0,
             "level": 2,
-            "time": 0
+            "time": 30,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 28,
@@ -222,23 +276,29 @@
             "category": 1,
             "group": 0,
             "level": 4,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 29,
             "description": "tápase los ojos, deje que alguien lo toque donde quiera y adivine quien fue. O tome:",
             "category": 1,
             "group": 0,
-            "level": 1,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 30,
             "description": "tómese una foto que parezca que está dando una mamada. O tome:",
             "category": 1,
             "group": 0,
-            "level": 4,
-            "time": 0
+            "level": 5,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 31,
@@ -246,7 +306,9 @@
             "category": 1,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 32,
@@ -254,7 +316,9 @@
             "category": 1,
             "group": 0,
             "level": 5,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 33,
@@ -262,7 +326,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 34,
@@ -270,7 +336,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 35,
@@ -278,7 +346,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 36,
@@ -286,7 +356,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 37,
@@ -294,7 +366,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 38,
@@ -302,7 +376,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 39,
@@ -310,7 +386,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 40,
@@ -318,7 +396,9 @@
             "category": 2,
             "group": 0,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 41,
@@ -326,7 +406,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 42,
@@ -334,15 +416,19 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 43,
             "description": "diga con cuántas personas ha cogido. O tome:",
             "category": 2,
             "group": 0,
-            "level": 3,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 44,
@@ -350,7 +436,9 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 45,
@@ -358,23 +446,29 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 46,
             "description": "diga el nombre de la última persona con la que ha estado. O tome:",
             "category": 2,
             "group": 0,
-            "level": 3,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 47,
             "description": "diga el nombre de una persona en la que ha pensado mientras se masturba. O tome:",
             "category": 2,
             "group": 0,
-            "level": 3,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 48,
@@ -382,199 +476,249 @@
             "category": 2,
             "group": 0,
             "level": 3,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 49,
             "description": "diga su posición sexual favorita. O tome:",
             "category": 2,
             "group": 0,
-            "level": 1,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 50,
             "description": "diga un rasgo físico que le gusta de usted mismo. O tome:",
             "category": 2,
             "group": 0,
-            "level": 3,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 51,
             "description": "entregue los shots a quien cree que liga más facíl. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 52,
             "description": "entregue los shots a quien cree que desperdicia más dinero. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 53,
             "description": "entregue los shots a alguien con tatuajes. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 54,
             "description": "entregue los shots a alguien más alto que usted. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 55,
             "description": "entregue los shots a alguien más bajo que usted. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 56,
             "description": "entregue los shots a la última persona que haya besado. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 57,
             "description": "entregue los shots a quien considere más apuntado. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 58,
             "description": "entregue los shots a quien considere más inteligente. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 59,
             "description": "entregue los shots a quien crea que esté más sobrio. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 60,
             "description": "entregue los shots a quien crea que lleva más sin coger. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 61,
             "description": "entregue los shots a quien crea sea el más sátiro o ninfómana. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 62,
             "description": "entregue los shots a quien cree que besa peor. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 63,
             "description": "entregue los shots a quien cree que tendría futuro en Onlyfans. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 64,
             "description": "entregue los shots a quien cree que va a ser padre primero. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 65,
             "description": "entregue los shots a quien esté menos apuntado. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 66,
             "description": "entregue los shots a quien le atrae más. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 67,
             "description": "entregue los shots a quien le tiene más confíanza. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 68,
             "description": "entregue los shots a quien menos conoce. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 69,
             "description": "entregue los shots a quien cree que tenga el pelo más bonito. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 70,
             "description": "entregue los shots a quien quiera, pero debe hacerlo boca a boca. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 71,
             "description": "entregue los shots a quien quiera, pero invente una razón. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 72,
             "description": "entregue los shots al más tóxico. O tome:",
             "category": 3,
             "group": 0,
-            "level": 0,
-            "time": 0
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 73,
@@ -582,7 +726,9 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 74,
@@ -590,7 +736,9 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 75,
@@ -598,7 +746,9 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 76,
@@ -606,7 +756,9 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 77,
@@ -614,7 +766,9 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 78,
@@ -622,7 +776,9 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 79,
@@ -630,47 +786,59 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 80,
             "description": "el que ha cogido con más personas toma:",
             "category": 4,
             "group": 1,
-            "level": 2,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 81,
-            "description": "el que sea más \"asaltacunas\" toma:",
+            "description": "\"el que sea más \"\"asaltacunas\"\" toma:\"",
             "category": 4,
             "group": 1,
             "level": 2,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 82,
-            "description": "el que sea más \"asaltatumbas\" toma:",
+            "description": "\"el que sea más \"\"asaltatumbas\"\" toma:\"",
             "category": 4,
             "group": 1,
             "level": 2,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 83,
             "description": "el último en mostrar una foto de niño toma:",
             "category": 4,
             "group": 1,
-            "level": 2,
-            "time": 0
+            "level": 1,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 84,
             "description": "el último en quitarse y mostrar su ropa interior al grupo toma:",
             "category": 4,
             "group": 1,
-            "level": 4,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 85,
@@ -678,15 +846,19 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 86,
             "description": "hagan una pose sexy. El menos sexy toma:",
             "category": 4,
             "group": 1,
-            "level": 4,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 87,
@@ -694,39 +866,49 @@
             "category": 4,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 88,
-            "description": "el que lleva más tiempo sin coger toma:",
+            "description": "el que lleva menos tiempo sin coger toma:",
             "category": 4,
             "group": 1,
-            "level": 2,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 89,
             "description": "agarrado por los laterales, pasen un lápiz con la boca. Si alguien lo deja caer, todos toman:",
             "category": 5,
             "group": 1,
-            "level": 4,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 90,
             "description": "agárrele el interior del muslo a la persona de la derecha. El último en hacerlo toma:",
             "category": 5,
             "group": 1,
-            "level": 4,
-            "time": 0
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 91,
-            "description": "shot por cada prenda puesta (puede quitarse prendas para evitar shots)",
+            "description": "shot por cada prenda puesta (puede quitarse prendas para evitar shots).",
             "category": 5,
             "group": 1,
             "level": 4,
-            "time": 0
+            "time": 0,
+            "notShowShot": 1,
+            "turns": 0
         },
         {
             "id": 92,
@@ -734,7 +916,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 93,
@@ -742,7 +926,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 94,
@@ -750,7 +936,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 95,
@@ -758,7 +946,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 96,
@@ -766,7 +956,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 97,
@@ -774,7 +966,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 98,
@@ -782,7 +976,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 99,
@@ -790,7 +986,9 @@
             "category": 5,
             "group": 1,
             "level": 1,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 100,
@@ -798,7 +996,9 @@
             "category": 5,
             "group": 1,
             "level": 2,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
         },
         {
             "id": 101,
@@ -806,7 +1006,379 @@
             "category": 5,
             "group": 1,
             "level": 4,
-            "time": 0
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 102,
+            "description": "¿le ha gustado alguien mientras tiene novio? si no (o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 103,
+            "description": "entregue los shots a quién sea, o crea que puede ser, más infiel. O tome:",
+            "category": 3,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 104,
+            "description": "¿ha, o le han, practicado sexo anal? si no (o si miente) tome",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 105,
+            "description": "entregue los shots a la persona que consume más drogas. O tome:",
+            "category": 3,
+            "group": 0,
+            "level": 5,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 106,
+            "description": "enseñe un nude del que esté orgulloso/a a quien quiera . O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 107,
+            "description": "diga el nombre del mejor ligue y explique el porqué. O tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 108,
+            "description": "diga la mayor traición que le ha hecho a un amigo. O tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 109,
+            "description": "diga la razón más tonta por la que no le ha gustado un ligue. O tome:",
+            "category": 2,
+            "group": 0,
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 110,
+            "description": "¿Quién le ha dado el mejor sexo oral? Sino responde tome:",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 111,
+            "description": "¿Tiene un secreto que no le puede contar ni a su mejor amigo? Si no(o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 112,
+            "description": "¿Alguna vez ha tenido que esconder chupetes? Si no(o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 113,
+            "description": "¿Alguna vez le ha atraído la novia de un amigo? ¿Aún? Si no(o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 114,
+            "description": "dele los shots a quien crea que parece más inocente, pero no lo es. O tome:",
+            "category": 3,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 115,
+            "description": "seleccione a alguien del grupo, finjan que son novios y termínelo. O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 2,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 116,
+            "description": "enseñe el último nude (propio o de alguien más) que tiene en la galería. O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 117,
+            "description": "shot por cada persona en el grupo con los que se acostaría.",
+            "category": 5,
+            "group": 1,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 1,
+            "turns": 0
+        },
+        {
+            "id": 118,
+            "description": "refuerce la amistad con quien quiera y cómo quiera. O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 119,
+            "description": "¿cree que tiene una buena pareja? Si no tiene(o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 120,
+            "description": "¿sería pareja de alguno de los presentes? ¿Quién? Si no(o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 121,
+            "description": "shot por cada persona en el grupo con quien se ha besado.",
+            "category": 5,
+            "group": 1,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 1,
+            "turns": 0
+        },
+        {
+            "id": 122,
+            "description": "haga una propuesta de matrimonio a quien quiera y sea creativo con el discurso. O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 123,
+            "description": "dele un shot a quien lo ha visto desnudo. O tome:",
+            "category": 3,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 124,
+            "description": "dele un shot a quien ya debería superar algo o a alguien. O tome:",
+            "category": 3,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 125,
+            "description": "diga el nombre de un amigo con el que quiera o quería coger. Si está, el amigo toma:",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 126,
+            "description": "¿cuánto cree que es el tamaño ideal de un pene? Si no responde tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 127,
+            "description": "chupe el muslo interno de quien tiene menos ropa. O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 5,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 128,
+            "description": "cuente si ha estado en la friendzone y cómo fue. O tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 129,
+            "description": "¿ha deseado que una pareja termine porque le gusta uno de los dos? Si no responde tome:",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 130,
+            "description": "mencionen al menos 3 actores/actrices porno. O tome:",
+            "category": 1,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 131,
+            "description": "ofrezca un secreto, si alguien quiere saberlo se toma los shots. O tome usted:",
+            "category": 3,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 132,
+            "description": "diga cuál cree que es su especialidad en la cama. Si no sabe(o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 133,
+            "description": "busquen un video porno cada uno y muestren un fragmento, el grupo elige el mejor. Toma el perdedor:",
+            "category": 4,
+            "group": 1,
+            "level": 5,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 134,
+            "description": "¿tiene un amigo con derecho, o algo parecido? Si no (o si miente) tome:",
+            "category": 2,
+            "group": 0,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 135,
+            "description": "confiésele a la persona que más le guste del grupo lo que se dejaría hacer en la cama. O tome:",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 136,
+            "description": "¿Qué es lo más extremo que ha hecho en la cama? Si no responde tome:",
+            "category": 2,
+            "group": 0,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 137,
+            "description": "muerdan el cuello de la misma persona, la persona elije a quién le toca tomar:",
+            "category": 4,
+            "group": 1,
+            "level": 4,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 0
+        },
+        {
+            "id": 138,
+            "description": "\"convenza a otro jugador de comprar una \"\"maldición\"\".\"",
+            "category": 7,
+            "group": 1,
+            "level": 3,
+            "time": 0,
+            "notShowShot": 0,
+            "turns": 1
         }
     ]
 }
