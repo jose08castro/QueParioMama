@@ -1,0 +1,11 @@
+.rule-popup {
+    position: absolute;
+    font-size: 1.7vh;
+    background-color: rgb(255, 255, 255);
+    padding: 5px 10px;
+    border-radius: 10px;
+    text-align: center;
+    width: 72%;
+    max-width: 310px;
+    text-align: left;
+  }

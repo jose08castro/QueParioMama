@@ -1,0 +1,37 @@
+.rule-bar-container {
+  display: flex;
+  flex-direction: row;
+  max-width: 100%;
+  align-items: center;
+}
+
+.rule-bar {
+  margin-right: auto;
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 5px 10px;
+  text-align: left;
+  color: #000;
+}
+
+.rule-bar-title-timer{
+  display: flex;
+  align-items: center;
+}
+
+.rule-bar-title{
+  font-size: 1.7vh;
+  margin-right: 15px;
+  max-width: 230px;
+}
+
+.rule-bar-timer {
+  font-size: 1.7vh;
+  min-width: 45px;
+}
+
+.rule-bar-description{
+  display: block;
+  font-size: 1.5vh;
+  padding-top: 10px;
+}

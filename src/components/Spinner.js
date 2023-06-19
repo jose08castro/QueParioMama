@@ -1,8 +1,13 @@
 import React, { useState, useEffect } from 'react';
-import './Spinner.css'; // Archivo CSS para estilos personalizados
+import WheelOfFortuneSoundFile from '../sounds/WheelOfFortuneOriginal.wav';
 
-const Spinner = ({ people, bodyParts, actions, onSpinComplete }) => {
+import './Spinner.css';
+
+const Spinner = ({ people, bodyParts, actions, positions, onSpinComplete }) => {
   const [isWheelStopped, setIsWheelStopped] = useState(false);
+  const [isWheelClickable, setIsWheelClickable] = useState(true);
+  const [isPlayingSound, setIsPlayingSound] = useState(false);
+  const WheelOfFortuneSound = new Audio(WheelOfFortuneSoundFile);
 
   useEffect(() => {
     var usedList = [];
@@ -10,8 +15,10 @@ const Spinner = ({ people, bodyParts, actions, onSpinComplete }) => {
       usedList = people;
     } else if (bodyParts.length !== 0) {
       usedList = bodyParts;
-    } else {
+    } else if (actions.length !== 0) {
       usedList = actions;
+    } else {
+      usedList = positions;
     }
     const canvas = document.getElementById('wheel');
     const ctx = canvas.getContext('2d');
@@ -21,33 +28,25 @@ const Spinner = ({ people, bodyParts, actions, onSpinComplete }) => {
     const TAU = 2 * PI;
     const arc = TAU / usedList.length;
 
-    const friction = 0.991; // 0.995=soft, 0.99=mid, 0.98=hard
-    let angVel = 0; // Angular velocity
-    let ang = 0; // Angle in radians
+    const friction = 0.988;
+    let angVel = 0;
+    let ang = 0;
+    let angle = 0;
 
     const getIndex = () =>
       Math.floor(usedList.length - (ang / TAU) * usedList.length) % usedList.length;
 
     const drawSector = (sector, i) => {
-      let description = '';
-      let wheelSectorColor = '';
-      if (sector.name) {
-        description = sector.name;
-        wheelSectorColor = sector.color;
-      } else {
-        description = sector;
-        wheelSectorColor = '#FBB03B';
-      }
-      const angle = arc * i;
+      let description = sector.name;
+      let wheelSectorColor = sector.color;
+      angle = arc * i;
       ctx.save();
-      // COLOR
       ctx.beginPath();
       ctx.fillStyle = wheelSectorColor;
       ctx.moveTo(rad, rad);
       ctx.arc(rad, rad, rad, angle, angle + arc);
       ctx.lineTo(rad, rad);
       ctx.fill();
-      // TEXT
       ctx.translate(rad, rad);
       ctx.rotate(angle + arc / 2);
       ctx.textAlign = 'right';
@@ -58,35 +57,34 @@ const Spinner = ({ people, bodyParts, actions, onSpinComplete }) => {
     };
 
     const rotate = () => {
-      let description = '';
-      let wheelSectorColor = '';
-      if (usedList[getIndex()]) {
-        description = usedList[getIndex()].name;
-        wheelSectorColor = usedList[getIndex()].color;
-      } else {
-        description = getIndex();
-        wheelSectorColor = '#FBB03B';
-      }
+      let description = usedList[getIndex()].name;
+      let wheelSectorColor = usedList[getIndex()].color;
       canvas.style.transform = `rotate(${ang - PI / 2}rad)`;
       const spin = document.getElementById('spin');
       spin.innerText = description;
+      spin.style.backgroundColor = wheelSectorColor;
     };
 
     const frame = () => {
       if (!angVel) return;
-      angVel *= friction; // Decrement velocity by friction
-      if (angVel < 0.002) {
-        angVel = 0; // Bring to stop
-        setIsWheelStopped(true); // Wheel is stopped
-        console.log("Rueda detenida");
-        console.log(document.getElementById('spin').innerText);
-        setTimeout(() => {
-          onSpinComplete(document.getElementById('spin').innerText); // Call spin complete callback
-        }, 1000);
+      angVel *= friction;
+
+      if (isPlayingSound && WheelOfFortuneSound.currentTime >= 1.9) {
+        angVel *= 0.9;
       }
-      ang += angVel; // Update angle
-      ang %= TAU; // Normalize angle
+
+      ang += angVel;
+      ang %= TAU;
       rotate();
+
+      if (angVel < 0.002 && WheelOfFortuneSound.ended) {
+        angVel = 0;
+        setIsWheelStopped(true);
+        setTimeout(() => {
+          onSpinComplete(document.getElementById('spin').innerText);
+          setIsWheelClickable(true);
+        }, 500);
+      }
     };
 
     const engine = () => {
@@ -95,15 +93,25 @@ const Spinner = ({ people, bodyParts, actions, onSpinComplete }) => {
     };
 
     usedList.forEach(drawSector);
-    rotate(); // Initial rotation
-    engine(); // Start engine
+    rotate();
+    engine();
 
     const handleClick = () => {
-      if (!angVel) {
-        angVel = rand(0.25, 0.45);
-        setIsWheelStopped(false); // Wheel is spinning
+      if (angVel || !isWheelClickable) {
+        return;
       }
+
+      setIsPlayingSound(true);
+      WheelOfFortuneSound.currentTime = 0;
+      WheelOfFortuneSound.play();
+      angVel = rand(0.25, 0.45);
+      setIsWheelStopped(false);
+      setIsWheelClickable(false);
     };
+
+    WheelOfFortuneSound.addEventListener('ended', () => {
+      setIsPlayingSound(false);
+    });
 
     const rand = (m, M) => Math.random() * (M - m) + m;
 
@@ -117,7 +125,7 @@ const Spinner = ({ people, bodyParts, actions, onSpinComplete }) => {
 
   return (
     <div id="wheelOfFortune">
-      <canvas id="wheel" width="250" height="250"></canvas>
+      <canvas id="wheel" width="250" height="250" disabled={isWheelClickable}></canvas>
       <div id="spin"></div>
     </div>
   );

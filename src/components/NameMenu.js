@@ -28,14 +28,15 @@ const NameMenu = ({ people, updatePeopleList }) => {
       id: generateUniqueId(),
       name: newName,
       shots: 0,
+      money: 0,
       score: 0,
       color: generateRandomColor(),
       plusShots: 0,
       plusShotsRounds: 0,
+      secretMissions: [],
     };
 
     updatePeopleList([...people, newPerson]);
-    console.log(people);
   };
 
   const deletePerson = (id) => {
@@ -105,7 +106,7 @@ const NameMenu = ({ people, updatePeopleList }) => {
         <NameList people={people} deletePerson={deletePerson} editPerson={editPerson} />
 
         <div className="buttons-container">
-          <Link to="/" className="button">
+          <Link to="/selectionMenu" className="button">
             Regresar
           </Link>
           {canContinue ? (

@@ -11,6 +11,7 @@
     justify-content: center; /* Centra los elementos verticalmente */
     align-items: center;
     padding: 0px 10px;
+    z-index: 99;
   }
   
   .market-container.open {
