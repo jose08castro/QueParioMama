@@ -1,0 +1,132 @@
+.over-selection-menu-container {
+  background-color: #2E9598;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100%;
+}
+
+.selection-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: aliceblue;
+  background-color: #2E9598;
+  border-radius: 25px;
+  width: 96%;
+  max-width: 412px;
+  height: 70vh;
+  max-height: 70vh;
+}
+
+.selection-menu-option {
+  padding: 10px 20px;
+  margin: 0 10px;
+  cursor: pointer;
+  font-weight: bold;
+  color: #000;
+  background-color: #eaeaea;
+  border-radius: 5px;
+}
+
+.selection-menu-options {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.selection-menu-option.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.selection-menu-title {
+  font-size: 48px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  color: #fff;
+  padding-bottom: 20px;
+}
+
+.selection-card {
+  background-color: #000000;
+  border-radius: 10px;
+  width: 25vh;
+  font-size: 2.5vh;
+  padding: 10px;
+  margin-bottom: 20px;
+}
+
+.selection-card:hover {
+  cursor: pointer;
+}
+
+.popup {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(73, 71, 92, 1);
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+  width: 70%;
+  max-width: 314px;
+}
+
+.popup h3 {
+  color: aliceblue;
+  margin-bottom: 10px;
+}
+
+.popup-options {
+  margin-top: 20px;
+}
+
+.popup-option {
+  margin-bottom: 10px;
+}
+
+.popup-option label {
+  color: aliceblue;
+  margin-right: 10px;
+  white-space: nowrap;
+}
+
+.popup-option input[type="range"] {
+  width: 100%;
+}
+
+.popup-option span {
+  color: aliceblue;
+  font-size: 14px;
+}
+
+.popup-option select {
+  width: 100%;
+  padding: 5px;
+}
+
+.popup-buttons-container {
+  display: flex;
+  justify-content: center;
+  padding-top: 15px;
+}
+
+.popup-button {
+  padding: 5px 10px;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  text-decoration: none;
+  margin: 0 10px;
+  font-size: 20px;
+  border: 0px;
+  font-family: 'Puffy';
+}
+
+.popup-button:hover {
+  background-color: #D23445;
+}

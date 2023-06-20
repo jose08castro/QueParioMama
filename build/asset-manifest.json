@@ -1,25 +1,34 @@
 {
   "files": {
-    "main.css": "/QueParioMama/static/css/main.0c61256f.css",
-    "main.js": "/QueParioMama/static/js/main.7b8a6e6a.js",
+    "main.css": "/QueParioMama/static/css/main.30dee8ad.css",
+    "main.js": "/QueParioMama/static/js/main.8bd1788c.js",
     "static/js/787.413fe05a.chunk.js": "/QueParioMama/static/js/787.413fe05a.chunk.js",
+    "static/media/WheelOfFortuneOriginal.wav": "/QueParioMama/static/media/WheelOfFortuneOriginal.2d92cb81e4234ca309c6.wav",
     "static/media/fa-solid-900.ttf": "/QueParioMama/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
     "static/media/fa-brands-400.ttf": "/QueParioMama/static/media/fa-brands-400.150de8eaa454d669c405.ttf",
     "static/media/fa-solid-900.woff2": "/QueParioMama/static/media/fa-solid-900.bb975c966c37455a1bc3.woff2",
+    "static/media/nextRule.wav": "/QueParioMama/static/media/nextRule.5bbc6121b61a0daf20fe.wav",
+    "static/media/FlipCard.wav": "/QueParioMama/static/media/FlipCard.e850d1ad2b538243c983.wav",
     "static/media/fa-brands-400.woff2": "/QueParioMama/static/media/fa-brands-400.e033a13ee751afc1860c.woff2",
+    "static/media/Victory.wav": "/QueParioMama/static/media/Victory.a7fa9724579782ee74c7.wav",
+    "static/media/GlassClink.mp3": "/QueParioMama/static/media/GlassClink.4e6b0ba939ed2952ab2d.mp3",
     "static/media/fa-regular-400.ttf": "/QueParioMama/static/media/fa-regular-400.d87474231f4192884802.ttf",
     "static/media/Puffy.ttf": "/QueParioMama/static/media/Puffy.b7b38397d23035e0266a.ttf",
+    "static/media/CashRegisterPurchase.mp3": "/QueParioMama/static/media/CashRegisterPurchase.120d9effa1dd3e7b63cb.mp3",
+    "static/media/NextCard.wav": "/QueParioMama/static/media/NextCard.be13308935419882288c.wav",
+    "static/media/SecretMissionPopup.mp3": "/QueParioMama/static/media/SecretMissionPopup.3500ed0940d1a3c79bc9.mp3",
     "static/media/fa-regular-400.woff2": "/QueParioMama/static/media/fa-regular-400.3223dc79c1adee56370b.woff2",
     "static/media/logo2.png": "/QueParioMama/static/media/logo2.44d78fa1b150e13a218f.png",
     "static/media/fa-v4compatibility.ttf": "/QueParioMama/static/media/fa-v4compatibility.0e3a648be390bd8cb094.ttf",
     "static/media/fa-v4compatibility.woff2": "/QueParioMama/static/media/fa-v4compatibility.68577e40f3e70067b5da.woff2",
+    "static/media/Timer.mp3": "/QueParioMama/static/media/Timer.37c3c4e4b9ecae77a785.mp3",
     "index.html": "/QueParioMama/index.html",
-    "main.0c61256f.css.map": "/QueParioMama/static/css/main.0c61256f.css.map",
-    "main.7b8a6e6a.js.map": "/QueParioMama/static/js/main.7b8a6e6a.js.map",
+    "main.30dee8ad.css.map": "/QueParioMama/static/css/main.30dee8ad.css.map",
+    "main.8bd1788c.js.map": "/QueParioMama/static/js/main.8bd1788c.js.map",
     "787.413fe05a.chunk.js.map": "/QueParioMama/static/js/787.413fe05a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0c61256f.css",
-    "static/js/main.7b8a6e6a.js"
+    "static/css/main.30dee8ad.css",
+    "static/js/main.8bd1788c.js"
   ]
 }
