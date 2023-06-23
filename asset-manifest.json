@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/QueParioMama/static/css/main.91c7f5f4.css",
-    "main.js": "/QueParioMama/static/js/main.2bcc3b48.js",
+    "main.js": "/QueParioMama/static/js/main.2f640724.js",
     "static/js/787.413fe05a.chunk.js": "/QueParioMama/static/js/787.413fe05a.chunk.js",
     "static/media/WheelOfFortuneOriginal.wav": "/QueParioMama/static/media/WheelOfFortuneOriginal.2d92cb81e4234ca309c6.wav",
     "static/media/fa-solid-900.ttf": "/QueParioMama/static/media/fa-solid-900.4a2cd718d7031b732e76.ttf",
@@ -24,11 +24,11 @@
     "static/media/Timer.mp3": "/QueParioMama/static/media/Timer.37c3c4e4b9ecae77a785.mp3",
     "index.html": "/QueParioMama/index.html",
     "main.91c7f5f4.css.map": "/QueParioMama/static/css/main.91c7f5f4.css.map",
-    "main.2bcc3b48.js.map": "/QueParioMama/static/js/main.2bcc3b48.js.map",
+    "main.2f640724.js.map": "/QueParioMama/static/js/main.2f640724.js.map",
     "787.413fe05a.chunk.js.map": "/QueParioMama/static/js/787.413fe05a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.91c7f5f4.css",
-    "static/js/main.2bcc3b48.js"
+    "static/js/main.2f640724.js"
   ]
 }
